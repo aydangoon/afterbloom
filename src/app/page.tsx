@@ -136,7 +136,7 @@ export default function LandingPage() {
             <img
               src="/images/blooming-flower.gif"
               aria-hidden
-              className="absolute left-[22%] top-[20%] h-[80%] w-[62%] translate-x-[2px] translate-y-[-25px] object-cover"
+              className="absolute left-[22%] top-[25%] h-[80%] w-[62%] translate-x-[2px] translate-y-[-25px] object-cover"
             />
             <img
               src="/images/picture-frame.webp"
