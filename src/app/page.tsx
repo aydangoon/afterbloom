@@ -149,7 +149,7 @@ export default function LandingPage() {
       </div>
       <div className="absolute bottom-8 left-1/2 z-10 flex -translate-x-1/2 items-center gap-6 text-white">
         <a
-          href="https://instagram.com"
+          href="https://instagram.com/afterb1oom"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
@@ -157,17 +157,14 @@ export default function LandingPage() {
         >
           <Instagram className="h-6 w-6" />
         </a>
-        <a
-          href="https://youtube.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="YouTube"
-          className="transition-opacity hover:opacity-70"
+        <span
+          aria-label="YouTube (coming soon)"
+          className="cursor-not-allowed opacity-50"
         >
           <Youtube className="h-6 w-6" />
-        </a>
+        </span>
         <a
-          href="https://tiktok.com"
+          href="https://tiktok.com/@afterb1oom"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="TikTok"
@@ -176,7 +173,7 @@ export default function LandingPage() {
           <TiktokIcon className="h-6 w-6" />
         </a>
         <a
-          href="mailto:hello@afterbloom.com"
+          href="mailto:afterbloom.music@gmail.com"
           aria-label="Email"
           className="transition-opacity hover:opacity-70"
         >
