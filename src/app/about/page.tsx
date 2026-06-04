@@ -1,13 +1,15 @@
+import Link from 'next/link'
+
 export default function AboutPage() {
   return (
     <div className="max-w-lg mx-auto py-12">
       <div className="relative flex justify-center pb-12">
-        <a href="/home">
+        <Link href="/home">
           <img
             src="/images/arrow.webp"
             className="absolute left-0 w-10 scale-[-1]"
           />
-        </a>
+        </Link>
         <h1 className="text-4xl font-bold">About</h1>
       </div>
       <div className="flex flex-col items-center text-left gap-2">

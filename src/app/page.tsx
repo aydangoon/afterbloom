@@ -1,7 +1,9 @@
+import Link from 'next/link'
+
 export default function LandingPage() {
   return (
     <div className="relative z-10 flex flex-col items-center justify-center h-full">
-      <a className="flex flex-col items-center" href="/home">
+      <Link className="flex flex-col items-center" href="/home">
         <h1 className="text-5xl font-bold pb-8">afterbloom</h1>
         <div className="relative h-72 aspect-square cursor-pointer">
           <img
@@ -17,7 +19,7 @@ export default function LandingPage() {
         </div>
         {/* <img src="/images/enter-2.gif" className="w-16 pt-4" /> */}
         <p className="text-center text-2xl font-bold cursor-pointer">Enter</p>
-      </a>
+      </Link>
     </div>
   )
 }

@@ -1,13 +1,15 @@
+import Link from 'next/link'
+
 export default function MusicPage() {
   return (
     <div className="max-w-lg mx-auto py-12">
       <div className="relative flex justify-center pb-32">
-        <a href="/home">
+        <Link href="/home">
           <img
             src="/images/arrow.webp"
             className="absolute left-0 w-10 scale-[-1]"
           />
-        </a>
+        </Link>
         <h1 className="text-4xl font-bold">Music</h1>
       </div>
       <div className="flex flex-col items-center gap-8">
