@@ -20,7 +20,7 @@ const PRELOAD_IMAGES = [
   '/images/star-group-1.webp',
   '/images/grass.webp',
   '/images/grass-2.webp',
-  '/images/castle.png',
+  '/images/castle.webp',
   '/images/shooting-star.webp',
 ]
 
@@ -202,7 +202,7 @@ function Background() {
         />
       </div>
       <img
-        src="/images/castle-2.png"
+        src="/images/castle-2.webp"
         className="bottom-[1%] absolute left-[15%] h-[12rem]"
       />
       <div

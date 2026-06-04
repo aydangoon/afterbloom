@@ -13,7 +13,7 @@ export default function AboutPage() {
       <div className="flex flex-col items-center text-left gap-2">
         <div className="relative aspect-square w-full max-w-[400px]">
           <div className="absolute inset-[21%] overflow-hidden">
-            <img src="/images/us.png" className="h-full w-full object-cover" />
+            <img src="/images/us.webp" className="h-full w-full object-cover" />
           </div>
           <img
             src="/images/picture-frame.webp"

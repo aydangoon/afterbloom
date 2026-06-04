@@ -13,7 +13,7 @@ export default function MusicPage() {
       <div className="flex flex-col items-center gap-8">
         <section className="flex flex-col items-center gap-2">
           <div className="relative w-64 aspect-square">
-            <img src="/images/afterthought.png" className="absolute inset-0" />
+            <img src="/images/afterthought.webp" className="absolute inset-0" />
             <img
               src="/images/new.gif"
               aria-hidden

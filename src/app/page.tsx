@@ -5,7 +5,7 @@ export default function LandingPage() {
         <h1 className="text-5xl font-bold pb-8">afterbloom</h1>
         <div className="relative h-72 aspect-square cursor-pointer">
           <img
-            src="/images/blooming-flower.gif"
+            src="/images/blooming-flower.webp"
             aria-hidden
             className="absolute left-[22%] top-[25%] h-[70%] w-[62%] translate-x-[2px] translate-y-[-25px]"
           />
