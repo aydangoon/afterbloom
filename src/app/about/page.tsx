@@ -23,7 +23,7 @@ export default function AboutPage() {
         </div>
         <p className="font-[500] first-letter:float-left first-letter:pr-2 first-letter:pt-0 first-letter:text-4xl first-letter:leading-[0.85] first-letter:font-bold">
           Afterbloom is an nyc-based alternative synthpop project by Huda Ayaz
-          and Aydan Gooneratne. Stay tuned, it's just the beginning.
+          and Aydan Gooneratne. Stay tuned, it&apos;s just the beginning.
         </p>
       </div>
     </div>

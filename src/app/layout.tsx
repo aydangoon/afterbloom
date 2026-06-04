@@ -10,6 +10,20 @@ const petitFormalScript = Petit_Formal_Script({
   subsets: ['latin'],
 })
 
+const PRELOAD_IMAGES = [
+  '/images/moon.webp',
+  '/images/saturn.webp',
+  '/images/seagulls.webp',
+  '/images/star.webp',
+  '/images/star-2.webp',
+  '/images/star-3.webp',
+  '/images/star-group-1.webp',
+  '/images/grass.webp',
+  '/images/grass-2.webp',
+  '/images/castle.png',
+  '/images/shooting-star.webp',
+]
+
 export const metadata: Metadata = {
   title: 'afterbloom',
   description: '',
@@ -39,6 +53,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {PRELOAD_IMAGES.map((href) => (
+          <link key={href} rel="preload" as="image" href={href} />
+        ))}
+      </head>
       <body className={`${petitFormalScript.variable} antialiased`}>
         <div className="flex flex-col relative h-[100dvh] w-full overflow-hidden bg-background font-petit-formal-script text-foreground [background-image:radial-gradient(ellipse_at_top_left,rgba(19,54,110,0.1),transparent_70%)]">
           <Background />
