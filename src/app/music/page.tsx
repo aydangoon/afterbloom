@@ -27,7 +27,7 @@ export default function MusicPage() {
             You lost yourself in the pursuit. <br />
             Was it worth it?
           </p>
-          <a href="" className="bg-violet-500 underline font-bold">
+          <a href="https://open.spotify.com/track/06Frk7JGQw9rVpbiScDiUO?si=cd3d33162a9d4cf5" className="bg-violet-500 underline font-bold">
             LISTEN NOW
           </a>
         </section>
